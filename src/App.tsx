@@ -30,7 +30,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={import.meta.env.DEV ? '/' : '/nome-do-seu-repositorio'}>
+      <BrowserRouter basename={import.meta.env.DEV ? '/' : '/vibrant-print-portal-68'}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/sobre" element={<About />} />
