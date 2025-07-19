@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Gráfica Vecinos - Website Oficial
 
 ## Project info
 
