@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base: '/vecinos-grafica/',
+  base: process.env.NODE_ENV === 'production' ? '/vibrant-print-portal-68/' : '/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
