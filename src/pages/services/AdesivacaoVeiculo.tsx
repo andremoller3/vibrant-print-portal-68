@@ -45,7 +45,7 @@ const AdesivacaoVeiculo = () => {
             </div>
             <div className="relative">
               <img 
-                src="/lovable-uploads/20cc1627-98ba-4460-bb68-f82e51b5de7a.png"
+                src="./lovable-uploads/20cc1627-98ba-4460-bb68-f82e51b5de7a.png"
                 alt="Adesivação profissional de veículos"
                 className="w-full h-auto rounded-lg shadow-2xl"
               />
