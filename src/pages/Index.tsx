@@ -60,10 +60,8 @@ const Index = () => {
               <div className="animate-on-scroll">
                 <span className="text-vecinos-orange font-semibold">Sobre Nós</span>
                 <h2 className="text-3xl md:text-4xl font-bold text-vecinos-blue mt-2 mb-6">
-                  Sua Gráfica de Confiança em Caraguatatuba
-                </h2>
-                <p className="text-gray-600 mb-8">
                   HÁ MAIS DE 5 ANOS FORNECENDO SOLUÇÕES GRÁFICAS COMPLETAS.
+                </h2>
                   <br /><br />
                   Não oferecemos apenas produtos, mas soluções completas, adaptadas às suas necessidades. Equipamentos modernos e equipe qualificada, garantindo qualidade e pontualidade nos trabalhos que executamos.
                 </p>
