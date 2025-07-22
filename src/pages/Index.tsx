@@ -50,7 +50,7 @@ const Index = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <Hero title="A Melhor Gráfica do Litoral Norte: Banners, Adesivos e Impressão Digital" subtitle="Transforme sua ideia em realidade com impressões de alta qualidade e cores vivas!" buttonText="Entre em Contato Agora" buttonLink="https://wa.me/5512979790618" imageUrl={heroImageUrl} />
+      <Hero title="A Melhor Gráfica do Litoral Norte: Impressão Digital & Comunicação Visual" subtitle="Transforme sua ideia em realidade com impressões de alta qualidade e cores vivas!" buttonText="Entre em Contato Agora" buttonLink="https://wa.me/5512979790618" imageUrl={heroImageUrl} />
 
       {/* About Section */}
       <section ref={aboutSectionRef} className="py-20 px-4">
@@ -62,11 +62,10 @@ const Index = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-vecinos-blue mt-2 mb-6">
                   Sua Gráfica de Confiança em Caraguatatuba
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  A Vecinos Comunicação Visual é a sua gráfica em Caraguatatuba, SP, especializada em impressão de alta qualidade. Com equipamentos modernos e mão de obra especializada, oferecemos o melhor em banners, adesivos, fachadas e impressão digital para clientes de Caraguatatuba, Ubatuba, São Sebastião e Ilhabela.
-                </p>
                 <p className="text-gray-600 mb-8">
-                  Nossa missão é garantir a máxima qualidade e rapidez, com cores vivas que destacam sua marca. Com 4,9 estrelas no Google, somos a escolha confiável para suas necessidades de impressão no litoral norte!
+                  HÁ MAIS DE 5 ANOS FORNECENDO SOLUÇÕES GRÁFICAS COMPLETAS.
+                  <br /><br />
+                  Não oferecemos apenas produtos, mas soluções completas, adaptadas às suas necessidades. Equipamentos modernos e equipe qualificada, garantindo qualidade e pontualidade nos trabalhos que executamos.
                 </p>
                 <Link to="/sobre" className="btn btn-primary inline-flex items-center">
                   Conheça Nossa História 
