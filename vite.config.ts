@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base: '/',
+  base: '/vibrant-print-portal-68/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
