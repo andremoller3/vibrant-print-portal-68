@@ -1,7 +1,6 @@
-
 import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, FileText, Clock, Truck, Zap, Award, Users } from 'lucide-react';
+import { ArrowRight, FileText, Clock, Truck, Zap, Award } from 'lucide-react';
 import Hero from '@/components/Hero';
 import ServiceCard from '@/components/ServiceCard';
 import TestimonialCard from '@/components/TestimonialCard';
@@ -46,11 +45,18 @@ const Index = () => {
 
   const heroImageUrl = "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=2071&auto=format&fit=crop";
 
-  return <>
+  return (
+    <>
       <Navbar />
-      
+
       {/* Hero Section */}
-      <Hero title="A Melhor Gráfica do Litoral Norte: Impressão Digital & Comunicação Visual" subtitle="Transforme sua ideia em realidade com impressões de alta qualidade e cores vivas!" buttonText="Entre em Contato Agora" buttonLink="https://wa.me/5512979790618" imageUrl={heroImageUrl} />
+      <Hero
+        title="A Melhor Gráfica do Litoral Norte: Impressão Digital & Comunicação Visual"
+        subtitle="Transforme sua ideia em realidade com impressões de alta qualidade e cores vivas!"
+        buttonText="Entre em Contato Agora"
+        buttonLink="https://wa.me/5512979790618"
+        imageUrl={heroImageUrl}
+      />
 
       {/* About Section */}
       <section ref={aboutSectionRef} className="py-20 px-4">
@@ -62,7 +68,7 @@ const Index = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-vecinos-blue mt-2 mb-6">
                   HÁ MAIS DE 5 ANOS FORNECENDO SOLUÇÕES GRÁFICAS COMPLETAS.
                 </h2>
-                  <br /><br />
+                <p className="text-gray-700 mb-6">
                   Não oferecemos apenas produtos, mas soluções completas, adaptadas às suas necessidades. Equipamentos modernos e equipe qualificada, garantindo qualidade e pontualidade nos trabalhos que executamos.
                 </p>
                 <Link to="/sobre" className="btn btn-primary inline-flex items-center">
@@ -73,7 +79,11 @@ const Index = () => {
             </div>
             <div className="animate-on-scroll animate-delay-200">
               <div className="relative">
-                <img src="https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Equipe da Vecinos Comunicação Visual" className="w-full h-auto rounded-lg shadow-xl" />
+                <img
+                  src="https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Equipe da Vecinos Comunicação Visual"
+                  className="w-full h-auto rounded-lg shadow-xl"
+                />
                 <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg md:max-w-xs">
                   <div className="flex items-center text-vecinos-blue font-bold text-xl">
                     <Award className="mr-2 text-vecinos-orange" size={24} />
@@ -184,7 +194,7 @@ const Index = () => {
             <rect width="100%" height="100%" fill="url(#grid)" />
           </svg>
         </div>
-        
+        {/* Aqui pode adicionar CTA futuramente */}
       </section>
 
       {/* Testimonials Section */}
@@ -210,7 +220,8 @@ const Index = () => {
 
       {/* Footer */}
       <Footer />
-    </>;
+    </>
+  );
 };
 
 export default Index;
