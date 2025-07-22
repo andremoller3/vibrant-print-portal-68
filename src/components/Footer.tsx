@@ -83,11 +83,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="mr-3 text-vecinos-orange flex-shrink-0" size={18} />
-                <a href="mailto:vendasvecinos@gmail.com" className="text-gray-300 hover:text-vecinos-orange transition-colors duration-300 text-sm sm:text-base break-all">vendasvecinos@gmail.com</a>
+                <a href="mailto:contato@vecinos.com.br" className="text-gray-300 hover:text-vecinos-orange transition-colors duration-300 text-sm sm:text-base break-all">contato@vecinos.com.br</a>
               </li>
               <li className="flex items-start">
                 <Clock className="mr-3 text-vecinos-orange flex-shrink-0 mt-1" size={18} />
-                <span className="text-gray-300 text-sm sm:text-base">Seg-Sex: 8:00-18:00</span>
+                <span className="text-gray-300 text-sm sm:text-base">Seg-Sex: 9:00-18:00<br />Sáb-Dom: Fechado</span>
               </li>
             </ul>
           </div>
