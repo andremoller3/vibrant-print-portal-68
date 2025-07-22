@@ -70,8 +70,8 @@ const Navbar = () => {
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="./lovable-uploads/4f56fc66-5129-4d49-b397-1c14c98dcfcb.png" 
-              alt="Vecinos Gráfica Logo" 
+              src="/lovable-uploads/4f56fc66-5129-4d49-b397-1c14c98dcfcb.png" 
+              alt="Vecinos Gráfica Logo"
               className="h-12 md:h-14 mr-2" 
             />
           </Link>
@@ -123,8 +123,8 @@ const Navbar = () => {
         <div className="container mx-auto px-4 py-5 flex justify-between items-center">
           <div className="flex items-center">
             <img 
-              src="./lovable-uploads/4f56fc66-5129-4d49-b397-1c14c98dcfcb.png" 
-              alt="Vecinos Gráfica Logo" 
+              src="/lovable-uploads/4f56fc66-5129-4d49-b397-1c14c98dcfcb.png" 
+              alt="Vecinos Gráfica Logo"
               className="h-12" 
             />
           </div>
