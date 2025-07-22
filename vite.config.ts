@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => ({
     react(),
     mode === 'development' && componentTagger(),
   ].filter(Boolean),
-  base: './', // <- ISSO É ESSENCIAL PARA GITHUB PAGES COM DOMÍNIO
+  base: '/', // Configuração correta para domínio personalizado
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
