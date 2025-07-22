@@ -165,7 +165,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-semibold text-vecinos-blue mb-3">Atendimento Local</h3>
               <p className="text-gray-600">
-                Atendemos todo o Litoral Norte: Caraguatatuba, Ubatuba, São Sebastião e Ilhabela.
+                Atendemos: Caraguatatuba, Ubatuba, São Sebastião, Ilhabela e Campinas.
               </p>
             </div>
 
