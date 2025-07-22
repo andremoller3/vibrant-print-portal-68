@@ -106,7 +106,7 @@ const Index = () => {
               Soluções Completas em Comunicação Visual
             </h2>
             <p className="text-gray-600">
-              Oferecemos uma ampla gama de serviços de impressão e comunicação visual para atender às necessidades do seu negócio no Litoral Norte de São Paulo.
+              Oferecemos uma ampla gama de serviços de impressão e comunicação visual para atender às necessidades do seu negócio.
             </p>
           </div>
 
@@ -134,7 +134,7 @@ const Index = () => {
               Excelência em Cada Impressão
             </h2>
             <p className="text-gray-600">
-              Na Vecinos, estamos comprometidos em fornecer serviços de impressão da mais alta qualidade para nossos clientes em todo o Litoral Norte.
+              Na Vecinos, estamos comprometidos em fornecer serviços de impressão da mais alta qualidade para nossos clientes.
             </p>
           </div>
 
@@ -206,7 +206,7 @@ const Index = () => {
               O que Nossos Clientes Dizem
             </h2>
             <p className="text-gray-600">
-              Veja o que nossos clientes satisfeitos têm a dizer sobre nossos serviços de comunicação visual no Litoral Norte.
+              Veja o que nossos clientes satisfeitos têm a dizer sobre nossos serviços de comunicação visual.
             </p>
           </div>
 
