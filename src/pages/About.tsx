@@ -62,7 +62,7 @@ const About = () => {
                 Uma Trajetória de Excelência em Comunicação Visual
               </h2>
               <p className="text-gray-600 mb-6">
-                Fundada em 2019 na cidade Campinas, a Vecinos Gráfica & Comunicação Visual, vem se destacando e conquistando a confiança de centenas de clientes.
+                Fundada em 2015, a Vecinos Comunicação Visual nasceu do sonho de oferecer serviços de comunicação visual de alta qualidade para empresas e negócios em Caraguatatuba e região. Começamos como uma pequena gráfica com foco em atendimento personalizado e, ao longo dos anos, conquistamos a confiança de centenas de clientes.
               </p>
               <p className="text-gray-600 mb-6">
                 Com investimento constante em tecnologias de impressão avançadas e uma equipe altamente qualificada, expandimos nossos serviços para atender todo o Litoral Norte de São Paulo, incluindo Ubatuba, São Sebastião e Ilhabela.
